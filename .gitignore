@@ -1,0 +1,26 @@
+# Dependencies and local environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local financial data and generated outputs
+db/
+data/*.csv
+outputs/*
+!outputs/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Framework output
+.next/
+out/
+build/
+dist/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.DS_Store
